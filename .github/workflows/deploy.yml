@@ -18,9 +18,6 @@ jobs:
       with:
         node-version: '18' # 根据您的项目需求选择Node.js版本
 
-    - name: Install dependencies
-      run: npm install
-
     - name: Install CloudBase CLI
       run: npm install -g @cloudbase/cli
 
